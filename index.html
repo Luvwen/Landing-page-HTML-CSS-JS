@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Clipboard landing page</title>
+    <link rel="stylesheet" href="./main.css" />
+    <script
+      src="https://kit.fontawesome.com/c0b71aee1f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="container-mode">
+          <p>
+            <a class="logo-a" href="#">Luvwen </a>
+          </p>
+          <div class="icon-container" id="icon-container">
+            <img
+              class="icon-theme"
+              id="icon-theme"
+              src="./icons/sun.svg"
+              alt=""
+            />
+            <p class="icon-text" id="icon-text">Light mode</p>
+          </div>
+        </div>
+        <button class="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+        <button class="nav-toggle-x">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a class="nav-menu-link" href="#">Home</a>
+          </li>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link" href="./index.html#link-mac">Features</a>
+          </li>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link" href="./index.html#clipboards"
+              >Clipboards</a
+            >
+          </li>
+          <li class="nav-menu-item">
+            <a class="nav-menu-link" href="./index.html#subtitle-2">About us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="logo-container">
+      <svg
+        class="logo"
+        width="125"
+        height="125"
+        viewbox="0 0 120 100"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g stroke="#26BBA4" stroke-width="10" fill="none" fill-rule="evenodd">
+          <circle cx="62.5" cy="62.5" r="57.5" />
+          <path
+            d="M85.481 85.481c-12.692 12.692-33.27 12.692-45.962 0s-12.692-33.27 0-45.962 33.27-12.692 45.962 0"
+            stroke-linecap="round"
+          />
+        </g>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="container-items">
+        <h1 class="title">A history of everything you copy</h1>
+        <p class="title-text">
+          Clipboard allows you to track and organize everything you copy.
+          Instantly access your clipboard on all your devices.
+        </p>
+        <div class="link-container">
+          <p>
+            <a href="#" class="link ios">Download for iOS</a>
+          </p>
+          <p>
+            <a href="#" id="link-mac" class="link mac">Download for Mac</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="subtitle-container">
+      <h2 id="subtitle" class="subtitle">Keep track of your snippets</h2>
+      <p class="subtitle-text">
+        Clipboard instantly stores any item you copy in the cloud, meaning you
+        can access your snippets immediately on all your devices. Our Mac and
+        iOS apps will help you organize everything.
+      </p>
+    </div>
+    <div class="container-image">
+      <img
+        class="computer-image"
+        src="./images/image-computer.png"
+        alt="Imagen de computadora"
+      />
+      <div class="image-items">
+        <h3 class="image-subtitle-items">Quick Search</h3>
+        <p class="image-text-items">
+          Easily search your snippets by content, category, web address,
+          application, and more.
+        </p>
+        <h3 class="image-subtitle-items">iCloud Sync</h3>
+        <p class="image-text-items">
+          Instantly saves and syncs snippets across all your devices.
+        </p>
+        <h3 class="image-subtitle-items">Complete History</h3>
+        <p id="clipboards" class="image-text-items">
+          Retrieve any snippets from the first moment you started using the app.
+        </p>
+      </div>
+    </div>
+    <div class="subtitle-container-new">
+      <h2 class="subtitle-img">Access Clipboard anywhere</h2>
+      <p class="text-img">
+        Whether you’re on the go, or at your computer, you can access all your
+        Clipboard snippets in a few simple clicks.
+      </p>
+      <img class="img-2" src="./images/image-devices.png" alt="" />
+    </div>
+    <div class="container-tools">
+      <h2 id="subtitle-2" class="subtitle-2">Supercharge your workflow</h2>
+      <p class="subtitle-text-2">
+        We’ve got the tools to boost your productivity.
+      </p>
+      <div class="container-workflow">
+        <div class="mini-container container-1">
+          <img
+            class="img-3"
+            src="./images/icon-blacklist.svg"
+            alt="Icono blacklists"
+          />
+          <h3 class="container-subtitle-2">Create blacklists</h3>
+          <p class="container-text-2">
+            Ensure sensitive information never makes its way to your clipboard
+            by excluding certain sources.
+          </p>
+        </div>
+        <div class="mini-container container-2">
+          <img class="img-3" src="./images/icon-text.svg" alt="Icono texto" />
+          <h3 class="container-subtitle-2">Plain text snippets</h3>
+          <p class="container-text-2 text-text">
+            Remove unwanted formatting from copied text for a consistent look.
+          </p>
+        </div>
+        <div class="mini-container container-3">
+          <img
+            class="img-3"
+            src="./images/icon-preview.svg"
+            alt="Icono preview"
+          />
+          <h3 class="container-subtitle-2">Sneak preview</h3>
+          <p class="container-text-2 text-text">
+            Quick preview of all snippets on your Clipboard for easy access.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-icons">
+      <img class="icons" src="./images/logo-google.png" alt="Logo google" />
+      <img class="icons" src="./images/logo-ibm.png" alt="Logo ibm" />
+      <img
+        class="icons"
+        src="./images/logo-microsoft.png"
+        alt="Logo microsoft"
+      />
+      <img class="icons" src="./images/logo-hp.png" alt="Logo hp" />
+      <img
+        class="icons"
+        src="./images/logo-vector-graphics.png"
+        alt="Logo vector"
+      />
+    </div>
+    <div class="bottom-container">
+      <h2 class="bottom-subtitle">Clipboard for iOS and Mac OS</h2>
+      <p class="bottom-text">
+        Available for free on the App Store. Download for Mac or iOS, sync with
+        iCloud and you’re ready to start adding to your clipboard.
+      </p>
+      <div class="bottom-buttons">
+        <p>
+          <a class="link ios" href="#">Download for iOS</a>
+        </p>
+        <p>
+          <a class="link mac" href="#">Download for Mac</a>
+        </p>
+      </div>
+    </div>
+    <footer class="footer">
+      <svg
+        class="logo uno"
+        width="125"
+        height="125"
+        viewbox="0 0 350 100"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g stroke="#26BBA4" stroke-width="10" fill="none" fill-rule="evenodd">
+          <circle cx="62.5" cy="62.5" r="57.5" />
+          <path
+            d="M85.481 85.481c-12.692 12.692-33.27 12.692-45.962 0s-12.692-33.27 0-45.962 33.27-12.692 45.962 0"
+            stroke-linecap="round"
+          />
+        </g>
+      </svg>
+      <div class="text-container-text">
+        <div class="bottom-text-container">
+          <p class="text-bottom-1">
+            <a class="links" href="#">FAQs</a>
+          </p>
+          <p class="text-bottom-1">
+            <a class="links" href="#">Contact Us</a>
+          </p>
+        </div>
+        <div class="bottom-text-container">
+          <p class="text-bottom-1">
+            <a class="links" href="#">Privacy Policy</a>
+          </p>
+          <p class="text-bottom-1">
+            <a class="links" href="#">Press Kit</a>
+          </p>
+        </div>
+        <div class="bottom-text-container">
+          <p class="text-bottom-1">
+            <a class="links" href="#">Install Guide</a>
+          </p>
+        </div>
+      </div>
+      <div class="icons-container-icons">
+        <a href="#">
+          <img
+            class="bottom-icons-2"
+            src="./images/icon-facebook.svg"
+            alt="Icono facebook"
+          />
+        </a>
+        <a href="#">
+          <img
+            class="bottom-icons-2"
+            src="./images/icon-twitter.svg"
+            alt="Icono twitter"
+          />
+        </a>
+        <a href="#">
+          <img
+            class="bottom-icons-2"
+            src="./images/icon-instagram.svg"
+            alt="Icono instagram"
+          />
+        </a>
+      </div>
+    </footer>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a
+          class="attribution-link"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a class="attribution-link" href="#">Santiago Baliño</a>.
+      </p>
+    </footer>
+  </body>
+</html>
